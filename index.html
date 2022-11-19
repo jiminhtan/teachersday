@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <style>
+
+    </style>
+</head>
+<body>
+   <div class="box">
+     <div class="form">
+        <h2>sign in</h2>
+        <div class="inputbox">
+            <input type="text"id="name"required="required" >
+            <span>name ( chỉ nhập tên và không được bé hơn 2 kí tự)</span>
+            <i></i>
+            <br>
+        </div>
+        <div class="genderbox">
+          <span>Gender  :  </span>
+          <input type="radio"value="male"name="gender"id="male">
+          <label for="male">male</label>
+          <input type="radio"value="female"name="gender"id="female">
+           <label for="female">female</label>
+         </div>
+       <button type="button"onclick="location.href='/index2.html'">Login</button>
+        <i></i>
+        <p id="name-error"></p>
+        <p id="gender-error"></p>
+      </div>   
+      
+     </div>
+     <script src='https://cdn.jsdelivr.net/g/lodash@4(lodash.min.js+lodash.fp.min.js)'></script>
+    <script src="/login.js"></script>
+</body>
+</html>
